@@ -1,0 +1,6 @@
+  237  uname -a
+  238  lsb_release -d
+  239  who
+  240  su orphee
+  241  exit
+

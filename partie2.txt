@@ -1,0 +1,10 @@
+  303 man man
+  304  ls /etc/
+  305  ls -la /etc/
+  306  ls /dev/
+  307  cat /etc/passwd
+  308  cat /etc/shadow
+  309  sort /etc/passwd
+  310  find /etc/ | grep "root"
+  311  find / -name stdio.h
+  312  wc -l -c -m /etc/passwd
