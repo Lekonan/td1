@@ -1,7 +1,7 @@
   349  mkdir -p HACKER CRACKER
   350  mv CRACKER BLACKHAT
   351  cat > toto.txt
-  352  echo HACKER BLACKHAT | xargs -n 1 cp toto.txt
+  352  echo HACKER BLACKHAT | xargs -n 1 cp file.txt
   353  ln -s BACKHAT lien_BLACK
   354  ln -s HACKER lien_HACK
   355  rm -rf HACKER BLACKHAT
