@@ -9,6 +9,6 @@
   370  find . -name "^[X|x]"
   371  find . -name "[!0-9]"
   372  cat affiche.txt | tr ":" ;
-  373  ls -Ad */ | grep "$[se|parse]"
+  373  ls -Ad */ | grep "$[se|SE]"
   374  find /usr -size +2000 -perm 755
   345  find /home/orphee -user orphee -perm 446
