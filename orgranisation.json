@@ -1,18 +1,18 @@
 {
-	"niveau_1":{
+	"niveau_3":{
 		
 		"utilisateurs" :{
 			"utilisateur_1 ":{
 				"nom" : "jeannette",
-				"droit" :"rwx" ,
+				"droit" :"rwx" 
 			},
 			"utilisateur_2 ":{
 				"nom" : "Magally",
-				"droit" :"x" ,
+				"droit" :"x" 
 			},
 			"utilisateur_3 ":{
 				"nom" : "Moyo",
-				"droit" :"r" ,
+				"droit" :"r" 
 			}	
 		},
 		
@@ -24,27 +24,27 @@
 		"utilisateurs" :{
 			"utilisateur_1 ":{
 				"nom" : "Branktor",
-				"droit" :"r" ,
+				"droit" :"r" 
 			},
 			"utilisateur_2 ":{
 				"nom" : "KinFack",
-				"droit" :"rw" ,
+				"droit" :"rw" 
 			},
 			"utilisateur_3 ":{
 				"nom" : "Domguia",
-				"droit" :"r" ,
+				"droit" :"r" 
 			},
 			"utilisateur_4 ":{
 				"nom" : "Joseph",
-				"droit" :"rwx" ,
+				"droit" :"rwx" 
 			},
 			"utilisateur_5 ":{
 				"nom" : "Abena",
-				"droit" :"rx" ,
+				"droit" :"rx" 
 			},
 			"utilisateur_6 ":{
 				"nom" : "Joseph",
-				"droit" :"rwx" ,
+				"droit" :"rwx" 
 			}
 				
 		},
@@ -54,7 +54,7 @@
 	
 	},
 	
-	"niveau_3":{
+	"niveau_1":{
 		"utilisateurs" : {
 			"utilisateur_1":{
 				"nom":"Nams",
@@ -83,6 +83,5 @@
 			
 		},
 		"dossiers":["Graphiques","Finances","HR"]
-	
 	}
 }
