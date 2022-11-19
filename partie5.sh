@@ -1,6 +1,5 @@
 #!/bin/bash
 
-#Emplacement de mon fichier
-file = "./organisation.json"
+cat organisation.json | jq.[]
 
 
