@@ -1,87 +1,85 @@
 {
 	"niveau_3":{
 		
-		"utilisateurs" :{
-			"utilisateur_1 ":{
+		"utilisateurs" :[
+			{
 				"nom" : "jeannette",
 				"droit" :"rwx" 
 			},
-			"utilisateur_2 ":{
+			{
 				"nom" : "Magally",
 				"droit" :"x" 
 			},
-			"utilisateur_3 ":{
+			{
 				"nom" : "Moyo",
 				"droit" :"r" 
 			}	
-		},
+		],
 		
 		"dossiers":["Recherche", "Sécurité", "Armement"]
 		
 	},
 	
 	"niveau_2":{
-		"utilisateurs" :{
-			"utilisateur_1 ":{
+		"utilisateurs" :[
+			{
 				"nom" : "Branktor",
 				"droit" :"r" 
 			},
-			"utilisateur_2 ":{
+			{
 				"nom" : "KinFack",
 				"droit" :"rw" 
 			},
-			"utilisateur_3 ":{
+			{
 				"nom" : "Domguia",
 				"droit" :"r" 
 			},
-			"utilisateur_4 ":{
+			{
 				"nom" : "Joseph",
 				"droit" :"rwx" 
 			},
-			"utilisateur_5 ":{
+			{
 				"nom" : "Abena",
 				"droit" :"rx" 
 			},
-			"utilisateur_6 ":{
+			{
 				"nom" : "Joseph",
 				"droit" :"rwx" 
 			}
 				
-		},
+		],
 		
 		"dossiers":["Développement", "Maintenance", "Acquision"]
-		
-	
 	},
 	
 	"niveau_1":{
-		"utilisateurs" : {
-			"utilisateur_1":{
+		"utilisateurs" : [
+			{
 				"nom":"Nams",
 				"droit":"rwx"
 			},
-			"utilisateur_2":{
+			{
 				"nom":"David",
 				"droit":"r"
 			},
-			"utilisateur_3":{
+			{
 				"nom":"Onesime",
 				"droit":"x"
 			},
-			"utilisateur_4":{
+			{
 				"nom":"rodrigue",
 				"droit":"r"
 			},
-			"utilisateur_5":{
+			{
 				"nom":"Olivier",
 				"droit":"rw"
 			},
-			"utilisateur_6":{
+			{
 				"nom":"Grace",
 				"droit":"r"
 			}
 			
-		},
+		],
 		"dossiers":["Graphiques","Finances","HR"]
 	}
 }
