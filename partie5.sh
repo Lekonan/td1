@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # Recuperation des parametres
 #NIVEAU 1
 usersNiveauUn=$(cat organisation.json | jq -r '.niveau_1.utilisateurs[] | .nom' )
@@ -17,11 +16,20 @@ usersNiveauTrois=$(cat organisation.json | jq -r '.niveau_3.utilisateurs[] | .no
 droitUsersNiveauTrois=$(cat organisation.json | jq -r '.niveau_3.utilisateurs[] | .droit' )
 dossiersNiveauTrois=$(cat organisation.json | jq -r '.niveau_3.dossiers[] | .' )
 
-#Je commence par créer des groupes sur le système
+#CREATION DE GROUPES SUR LE SYSTEME
+sudo groupadd niveau_1
+sudo groupadd niveau_2
+sudo groupadd niveau_3
+
+#CREATION ET AJOUT DES DOSSIERS DANS LES GROUPES RESPECTIFS
+#NIVEAU 1
+
+#NIVEAU 2
+
+#NIVEAU 3
 
 
-
-for in $usersNiveauUn
+for user in $usersNiveauUn
 do
     #Creation des utilisateurs
     echo $user
