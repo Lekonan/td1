@@ -3,7 +3,7 @@
 		
 		"utilisateurs" :[
 			{
-				"nom" : "jeannette",
+				"nom" : "Jeannette",
 				"droit" :"rwx" 
 			},
 			{
@@ -32,7 +32,7 @@
 			},
 			{
 				"nom" : "Domguia",
-				"droit" :"r" 
+				"droit" :"000" 
 			},
 			{
 				"nom" : "Joseph",
@@ -43,7 +43,7 @@
 				"droit" :"rx" 
 			},
 			{
-				"nom" : "Joseph",
+				"nom" : "Bosco",
 				"droit" :"rwx" 
 			}
 				
@@ -67,7 +67,7 @@
 				"droit":"x"
 			},
 			{
-				"nom":"rodrigue",
+				"nom":"Rodrigue",
 				"droit":"r"
 			},
 			{
