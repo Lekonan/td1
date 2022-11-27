@@ -8,11 +8,11 @@
 			},
 			{
 				"nom" : "Magally",
-				"droit" :"x" 
+				"droit" :"--x" 
 			},
 			{
 				"nom" : "Moyo",
-				"droit" :"r" 
+				"droit" :"r--" 
 			}	
 		],
 		
@@ -24,15 +24,15 @@
 		"utilisateurs" :[
 			{
 				"nom" : "Branktor",
-				"droit" :"r" 
+				"droit" :"r--" 
 			},
 			{
 				"nom" : "KinFack",
-				"droit" :"rw" 
+				"droit" :"rw-" 
 			},
 			{
 				"nom" : "Domguia",
-				"droit" :"000" 
+				"droit" :"---" 
 			},
 			{
 				"nom" : "Joseph",
@@ -40,11 +40,11 @@
 			},
 			{
 				"nom" : "Abena",
-				"droit" :"rx" 
+				"droit" :"r--" 
 			},
 			{
 				"nom" : "Bosco",
-				"droit" :"rwx" 
+				"droit" :"r-x" 
 			}
 				
 		],
@@ -60,23 +60,23 @@
 			},
 			{
 				"nom":"David",
-				"droit":"r"
+				"droit":"r--"
 			},
 			{
 				"nom":"Onesime",
-				"droit":"x"
+				"droit":"--x"
 			},
 			{
 				"nom":"Rodrigue",
-				"droit":"r"
+				"droit":"r--"
 			},
 			{
 				"nom":"Olivier",
-				"droit":"rw"
+				"droit":"rw-"
 			},
 			{
 				"nom":"Grace",
-				"droit":"r"
+				"droit":"r--"
 			}
 			
 		],

@@ -96,5 +96,8 @@ elif [[ $usersNiveauTrois =~ $user ]]; then
             echo "The rigth for $user is $droitDossier But it should be $droitUser"
         fi
     done
+else
+    echo "L'utilisateur $user n'existe pas dans le fichier de configuration"
 fi
+
 
