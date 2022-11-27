@@ -3,8 +3,6 @@
 #RECUPERATION DU NOM DE UTILISATEUR ET DU FICHIER EN PARAMETRES
 user=$1
 fichier=$2
-
-
 #NIVEAU 1
 usersNiveauUn=$(cat $fichier | jq -r '.niveau_1.utilisateurs[] | .nom' )
 droitUsersNiveauUn=$(cat $fichier | jq -r '.niveau_1.utilisateurs[] | .droit' )
