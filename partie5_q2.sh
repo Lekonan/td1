@@ -25,6 +25,7 @@ sudo groupadd niveau_3
 #NIVEAU 1
 for dossier in $dossiersNiveauUn
 do
+    #ATTENTION : LE TEST SE FERA AVEC UNE SPECIFICATION DE DOSSIER DE DESTINATION
     sudo mkdir /home/orphee/ESIR/semestre_1/srio/td-srio/$dossier
     sudo chown root:niveau_1 /home/orphee/ESIR/semestre_1/srio/td-srio/$dossier
     sudo chmod -R 700 /home/orphee/ESIR/semestre_1/srio/td-srio/$dossier
@@ -32,7 +33,8 @@ done
 
 #NIVEAU 2
 for dossier in $dossiersNiveauDeux
-do
+do  
+    #ATTENTION : LE TEST SE FERA AVEC UNE SPECIFICATION DE DOSSIER DE DESTINATION
     sudo mkdir /home/orphee/ESIR/semestre_1/srio/td-srio/$dossier
     sudo chown root:niveau_2 /home/orphee/ESIR/semestre_1/srio/td-srio/$dossier
     sudo chmod -R 700 /home/orphee/ESIR/semestre_1/srio/td-srio/$dossier
@@ -41,6 +43,7 @@ done
 #NIVEAU 3
 for dossier in $dossiersNiveauTrois
 do
+    #ATTENTION : LE TEST SE FERA AVEC UNE SPECIFICATION DE DOSSIER DE DESTINATION
     sudo mkdir /home/orphee/ESIR/semestre_1/srio/td-srio/$dossier
     sudo chown root:niveau_3 /home/orphee/ESIR/semestre_1/srio/td-srio/$dossier
     sudo chmod -R 700 /home/orphee/ESIR/semestre_1/srio/td-srio/$dossier
